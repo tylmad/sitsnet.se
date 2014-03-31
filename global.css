@@ -1,0 +1,116 @@
+body
+{
+  background: #dedede;
+  font-family: Helvetica, sans-serif;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2em;
+}
+
+#logo, #small_logo
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1000%;
+  color: #eeeeee;
+
+  /* Lite fancy 3D-effekt */
+  text-shadow:
+    0 0 2px rgba(204, 208, 212,0.9),
+    0 15px 25px rgba(0, 0, 0, 0.3),
+    0 -2px 3px rgba(0, 0, 0, 0.1),
+    0 -5px 10px rgba(255, 255, 255, 0.5),
+    0 5px 10px rgba(0, 0, 0, 0.3),
+    0 3px 4px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.45);
+
+  width: 100%;
+}
+
+#small_logo
+{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #444444;
+  font-size: 200%;
+}
+
+#menu
+{
+  /* Vi resetar listan */
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-type: none;
+
+  background: #efefef;
+  border: 1px solid black;
+}
+
+#menu > li
+{
+  padding: 20px;
+  margin: 20px;
+}
+
+#menu > li > a
+{
+  font-weight: bold;
+  color: #222222;
+  -webkit-transition: color 0.5s;
+     -moz-transition: color 0.5s;
+      -ms-transition: color 0.5s;
+       -o-transition: color 0.5s;
+}
+
+#menu > li > a:hover
+{
+  color: #aa0000;
+}
+
+.first-sentence
+{
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 130%;
+}
+
+.first-sentence:first-letter
+{
+  font-size: 130%;
+}
+
+body > p
+{
+  background: #efefef;
+  border: 1px solid black;
+  padding: 1em 2em 1em 2em;
+  width: 50em; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#feed_icon
+{
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+h3
+{
+  margin-left: 20%;
+  margin-bottom: -15px;
+  margin-top: 35px;
+}
+
+#back
+{
+  text-decoration: none;
+  font-size: 500%;
+  position: fixed;
+  top: 49%;
+  left: 10px;
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>sitsnet.se</title>
+  <description>Sitsnets RSS</description>
+  <link>http://sitsnet.se/</link>
+  <item>
+    <title>En wiki</title>
+    <description>Nu finns det en wiki som alla lärare kan editera!</description>
+    <link>http://sitsnet.se/</link>
+  </item>
+  <item>
+    <title>Sidan är skapad</title>
+    <description>Nu har det byggt en första version av sidan!</description>
+    <link>http://sitsnet.se/</link>
+  </item>
+</channel>
+</rss>
